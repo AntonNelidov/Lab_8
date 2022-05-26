@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15) 
 
-set(PROJECT_NAME LAB_7)				 # имя проекта		 
+set(PROJECT_NAME LAB_8)				 # имя проекта		 
 project("${PROJECT_NAME}")
 
 
@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 include_directories("inc/")
 
-add_executable("${PROJECT_NAME}" main.cpp)
+add_executable("${PROJECT_NAME}" main.cpp inc/matrix.hpp)
