@@ -28,7 +28,7 @@ int main()
 
 	// // // // // // // // // // // // // // //
 
-	cout << "Enter the B (3x3) matrix: " << endl;
+	/*cout << "Enter the B (3x3) matrix: " << endl;
 	cin >> B;
 
 	cout << B << endl;
@@ -40,10 +40,12 @@ int main()
 	cout << B.Transposit() << endl;
 
 	cout << endl << "Inversion Matrix: " << endl;
-	cout << B.Inverse() << endl;
+	cout << B.Inverse() << endl;*/
 
 	// // // // // // // // // // // // // // //
 	cout << "Tests:" << endl;
+
+	cout << A << endl;
 
 	cout << "A*A = ";
 	C = A * A;

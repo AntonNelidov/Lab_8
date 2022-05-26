@@ -103,10 +103,11 @@ namespace mt::math
 			Matrix<T, N, M> tmp;
 
 			for (int i = 0; i < m_n; i++)
-				for (int j = 0; j < mat.getM(); j++) {
+				for (int j = 0; j < mat.getM(); j++)
+				{
 					int sum = 0;
 					for (int k = 0; k < m_m; k++)
-						sum += m_mat[i][k] * mat.get(i, j);
+						sum += m_mat[i][k] * mat.get(k, j);
 					tmp.set(i, j, sum);
 				}
 
